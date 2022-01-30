@@ -1,7 +1,7 @@
-package basic;
+package programmers.sorts;
 
-public class Sort {
-    public String[] solution(String[] strings, int n) {
+public class Sort01 {
+    public String[] sortStringArrayByIndexNumber(String[] strings, int n) {
 
         for (int i = 0; i < strings.length - 1; i++) {
             for (int j = i + 1; j < strings.length; j++) {

@@ -1,7 +1,7 @@
-package basic;
+package programmers.numbers;
 
-public class Submultiple {
-    public int solution(int left, int right) {
+public class Submultiple01 {
+    public int calculateByNumberOfSubmultiple(int left, int right) {
         int answer = 0;
 
         // 약수의 개수가 홀수 ? 제곱수일 경우에만 해당. 1, 4, 9, 16, 25, 36, 49 등

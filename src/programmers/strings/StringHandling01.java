@@ -1,8 +1,8 @@
-package basic;
+package programmers.strings;
 
-public class StringHandling {
+public class StringHandling01 {
 
-    public boolean solution1(String s) {
+    public boolean convertToNumber(String s) {
         boolean answer = s.length() == 4 || s.length() == 6;
 
         try {
@@ -14,7 +14,7 @@ public class StringHandling {
         return answer;
     }
 
-    public String solution2(int n) {
+    public String appendChar(int n) {
         StringBuilder answer = new StringBuilder();
 
         int w = 0;
@@ -30,7 +30,7 @@ public class StringHandling {
         }
     }
 
-    public String solution3(String s) {
+    public String getMiddleChar(String s) {
         String answer = "";
         int i = 0;
 
